@@ -1,0 +1,32 @@
+// question: 0  name: Switch category to $course$/top/Défaut pour SB_LduBousquet/greenco
+$CATEGORY: $course$/top/Défaut pour SB_LduBousquet/greenco
+
+
+// question: 0  name: Switch category to $course$/top/Défaut pour SB_LduBousquet/greenco/energie
+$CATEGORY: $course$/top/Défaut pour SB_LduBousquet/greenco/energie
+
+
+// question: 2404615  name: QCM avec 1 bonne réponse
+::QCM avec 1 bonne réponse::[html]<p dir\="ltr" style\="text-align\: left;">Ici la question<br></p>{
+	=<p dir\="ltr" style\="text-align\: left;">Réponse juste<br></p>
+	~<p dir\="ltr" style\="text-align\: left;">réponse fausse<br></p>
+	~<p dir\="ltr" style\="text-align\: left;">réponse fausse<br></p>
+	~<p dir\="ltr" style\="text-align\: left;">réponse fausse<br></p>
+	####<p dir\="ltr" style\="text-align\: left;">Ici le feedback<br></p>
+}
+
+
+// question: 2404616  name: QCM avec 2 bonnes réponses
+::QCM avec 2 bonnes réponses::[html]<p dir\="ltr" style\="text-align\: left;">Ici la question<br></p>{
+	~<p dir\="ltr" style\="text-align\: left;">Réponse fausse<br></p>
+	~%50%<p dir\="ltr" style\="text-align\: left;">Réponse juste numéro 1<br></p>
+	~%50%<p dir\="ltr" style\="text-align\: left;">Réponse juste numéro 2<br></p>
+	~<p dir\="ltr" style\="text-align\: left;">Réponse fausse<br></p>
+	####<p dir\="ltr" style\="text-align\: left;">Ici le feedback<br></p>
+}
+
+
+// question: 2404617  name: Question vrai/faux
+::Question vrai/faux::[html]<p dir\="ltr" style\="text-align\: left;">Ici la question<br></p>{FALSE#<p dir\="ltr" style\="text-align\: left;">feedback réponse vraie<br></p>#<p dir\="ltr" style\="text-align\: left;">feedback réponse<br></p>####<p dir\="ltr" style\="text-align\: left;">Ici le feed back -&nbsp; réponse correcte faux<br></p>}
+
+
