@@ -1,4 +1,4 @@
-import parser as p
+import GreenGoparser as p
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import ttk
